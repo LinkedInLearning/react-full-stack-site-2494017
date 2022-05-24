@@ -9,15 +9,20 @@ dotenv.config();
 const uri = process.env.STRING_URI;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
-client.connect(err => {
-  console.log("connecté avec succès à la db")
-  // const collection = client.db("test").collection("devices");
-  // perform actions on the collection object
-  client.close();
-});
+
 
 app.get("/", (_, res) => {
-    res.send("Hello Express !")
+  client.connect((err, db) => {
+    console.log("connecté avec succès à la db")
+    if (err || !db) { return false }
+    db.db("blog").collection("posts").find().toArray( function (err, results) {
+      if (!err) {
+        res.status(200).send(results);
+      }
+    })
+    // perform actions on the collection object
+    // client.close();
+  });
 })
 
 app.listen(port, () => {
