@@ -4,6 +4,7 @@ import { MongoClient, ServerApiVersion } from 'mongodb';
 const app = express();
 const port = 4000;
 
+app.use(express.json());
 dotenv.config();
 
 const uri = process.env.STRING_URI;
@@ -23,11 +24,13 @@ app.get("/", (_, res) => {
   });
 })
 
+const obj = {title: "title", content: "content ..."};
+
 app.post("/insert", (req, res) => {
   client.connect((err, db) => {
     console.log("connecté avec succès à la db")
     if (err || !db) { return false }
-    db.db("blog").collection("posts").insertOne({}, function(err, results) {
+    db.db("blog").collection("posts").insertOne(req.body, function(err, results) {
       if(!err) {
         res.status(200).send(results);
       }
