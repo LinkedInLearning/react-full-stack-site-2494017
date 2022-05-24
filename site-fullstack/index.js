@@ -9,8 +9,6 @@ dotenv.config();
 const uri = process.env.STRING_URI;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
-
-
 app.get("/", (_, res) => {
   client.connect((err, db) => {
     console.log("connecté avec succès à la db")
@@ -25,6 +23,17 @@ app.get("/", (_, res) => {
   });
 })
 
+app.post("/insert", (req, res) => {
+  client.connect((err, db) => {
+    console.log("connecté avec succès à la db")
+    if (err || !db) { return false }
+    db.db("blog").collection("posts").insertOne({}, function(err, results) {
+      if(!err) {
+        res.status(200).send(results);
+      }
+    })
+  })
+})
 app.listen(port, () => {
     console.log("serveur démarré avec succès sur le port 4000")
 })
