@@ -1,17 +1,26 @@
-import { useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { useAppContext } from "../context"
 
 export default function Layout({ children}) {
     const { addPost } = useAppContext(); 
+    const [post, setPost] = useState({title: null, content: null})
 
     const inputRef = useRef()
     const textRef = useRef()
     const [isCollapsed, collapse] = useState(false)
   
     const toggleVisibility = () => collapse(!isCollapsed);
-    const handleOnChange = e => console.log(e.targetValue);
-    const handleOnSubmit = e => e.preventDefault();
+    const handleOnChange = e => {
+        setPost({...post, [e.target.name]: e.target.value})
+    }
+    const handleOnSubmit = e => {
+        e.preventDefault();
+        addPost(post)
+    }
 
+    const isValid = useMemo(() => {
+        return Object.values(post).some(value => !value);
+    }, [post])
     return(
     <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -36,7 +45,7 @@ export default function Layout({ children}) {
             <form className="mt-5" onSubmit={handleOnSubmit}>
                 <input ref={inputRef} type="text" name="title" className="form-control mb-3" id="exampleInputEmail1" onChange={handleOnChange} aria-describedby="emailHelp" placeholder="title" />
                 <textarea ref={textRef} name="content" rows="4"  className="form-control mb-3" onChange={handleOnChange} placeholder="content"></textarea>
-                <button type="submit" className="btn btn-primary mb-5 float-end">Submit</button>
+                <button type="submit" className="btn btn-primary mb-5 float-end" disabled={isValid}>Submit</button>
             </form>}
                 {children}
             </div>
