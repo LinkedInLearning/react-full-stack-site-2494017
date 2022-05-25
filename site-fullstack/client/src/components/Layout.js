@@ -16,6 +16,10 @@ export default function Layout({ children}) {
     const handleOnSubmit = e => {
         e.preventDefault();
         addPost(post)
+        setPost({title: null, content: null})
+        inputRef.current.value= null;
+        textRef.current.value= null;
+        toggleVisibility(false)
     }
 
     const isValid = useMemo(() => {
