@@ -1,12 +1,9 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 import { Link } from "react-router-dom"
-import { getPosts } from "../service"
+import { useAppContext } from "../context"
 
 export default function List() {
-    const [posts, setPosts] = useState([]);
-    useEffect(() => {
-      getPosts().then(setPosts)
-    }, [])
+    const { posts } = useAppContext()
     return(
     <div className="mt-5">
         {posts.map(post => {

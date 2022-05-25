@@ -20,4 +20,8 @@ const AppProvider = ({ children}) => {
     return <Provider value={value}>{children}</Provider>
 }
 
+export const useAppContext = () => {
+    return useContext(AppContext);
+}
+
 export default AppProvider;
