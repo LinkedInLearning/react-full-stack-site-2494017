@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState } from "react";
 import { useAppContext } from "../context"
 
 export default function Layout({ children}) {
@@ -12,9 +12,6 @@ export default function Layout({ children}) {
     const handleOnChange = e => console.log(e.targetValue);
     const handleOnSubmit = e => e.preventDefault();
 
-    useEffect(() => {
-        addPost({title: "some new title", content: "some new content"})
-    }, [])
     return(
     <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
