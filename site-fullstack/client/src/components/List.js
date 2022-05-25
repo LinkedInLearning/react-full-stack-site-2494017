@@ -1,20 +1,20 @@
-import React, { useEffect } from "react"
+import React, { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
-import data from "../data"
 import { getPosts } from "../service"
 
 export default function List() {
+    const [posts, setPosts] = useState([]);
     useEffect(() => {
-      getPosts()
+      getPosts().then(setPosts)
     }, [])
     return(
     <div className="mt-5">
-        {data.map(item => {
-          const title = item.title.split(" ").join("-");
-          const content = `${item.content.substring(0, 100)} ...`
+        {posts.map(post => {
+          const title = post?.title.split(" ").join("-");
+          const content = `${post?.content.substring(0, 100)} ...`
           return(
-            <div key={item._id}>
-                <h3><Link to={`/post/${title}`} state={{id : item._id}}>{item.title}</Link></h3>
+            <div key={post._id}>
+                <h3><Link to={`/post/${title}`} state={{id : post._id}}>{post.title}</Link></h3>
                 <p>{content}</p>
             </div>
           )
