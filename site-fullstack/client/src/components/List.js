@@ -1,8 +1,12 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Link } from "react-router-dom"
 import data from "../data"
+import { getPosts } from "../service"
 
 export default function List() {
+    useEffect(() => {
+      getPosts()
+    }, [])
     return(
     <div className="mt-5">
         {data.map(item => {
