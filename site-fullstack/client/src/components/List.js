@@ -7,10 +7,11 @@ export default function List() {
     <div className="mt-5">
         {data.map(item => {
           const title = item.title.split(" ").join("-");
+          const content = `${item.content.substring(0, 100)} ...`
           return(
             <div key={item.id}>
-                <h3><Link to={`/post/${title}`}>{item.title}</Link></h3>
-                <p>{item.content}</p>
+                <h3><Link to={`/post/${title}`} state={{id : item._id}}>{item.title}</Link></h3>
+                <p>{content}</p>
             </div>
           )
         })}
