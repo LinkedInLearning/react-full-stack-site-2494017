@@ -15,6 +15,7 @@ app.use(express.static(public_path));
 app.get("*", (_, res) => {
     res.sendFile(path.join(public_path, 'index.html'));
 })
+
 app.listen(port, () => {
     console.log("serveur démarré avec succès sur le port 4000")
 })
