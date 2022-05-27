@@ -12,7 +12,7 @@ var app = (0, _express["default"])();
 
 var routes = _express["default"].Router();
 
-var port = 4000;
+var port = process.env.PORT || 4000;
 app.use((0, _cors["default"])());
 app.use(_express["default"].json());
 app.use("/posts", routes);
