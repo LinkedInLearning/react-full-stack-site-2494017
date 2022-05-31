@@ -4,7 +4,14 @@ Ce dossier Repository est lié au cours `React : Créer et héberger un site ful
 
 ![Nom final de la formation][lil-thumbnail-url] 
 
-DESCRIPTION DE LA FORMATION
+Ce cours 100% orienté javascript vous présente comment créer votre première application fullstack avec la stack M.E.R.N :
+
+- MongoDB Atlas: une base de données noSQL  pour stocker les données dans le cloud
+- Express.JS : une librairie javascript haut niveau pour créer des infrastructures web et des API RESTful
+- React.JS : une bibliothèque javascript devenu populaire depuis sa création en 2013 pour développer des interfaces visuelles 
+- Et, Nodejs, plateforme logicielle libre en JavaScript, conçu pour créer des applications réseau évolutives
+
+À la fin, vous aurez crée et déployé un projet complet dans le cloud hébergé sur Heroku, une Plateforme as a Service (PaaS) pour héberger son application dans le cloud
 
 ## Instructions
 
@@ -22,7 +29,7 @@ La branche master correspond au code à la fin de la formation.
 ## Installation
 
 1. Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
-   - [Liste des logiciels/dépendances utiles à la formation] 
+   - Visual Code Studio[https://code.visualstudio.com/]
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
 3. [Instructions spécifiques au cours] 
 
