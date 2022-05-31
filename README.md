@@ -10,6 +10,8 @@ DESCRIPTION DE LA FORMATION
 
 Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
 
+vidéo: `03_07`, dans le répertoire backend, penser à ajouter un fichier `.env` à la racine de votre projet pour y inscrire la variable d'environnement `STRING_URI=string-de-connexion-de-mongoDB`
+
 ## Branches
 
 Les branches sont structurées de manière à correspondre aux vidéos du cours. La convention de nommage est : `CHAPITRE#_VIDEO#`. Par exemple, la branche nommée`02_03` correspond au second chapitre, et à la troisième vidéo de ce chapitre. Certaines branches ont un état de départ et de fin.  
@@ -24,6 +26,7 @@ La branche master correspond au code à la fin de la formation.
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
 3. [Instructions spécifiques au cours] 
 
+Après téléchargement des fichiers d'exercices, faire `npm install` dans les répertoires **client** et **backend** pour installer les paquets npm
 
 ### Formateur
 
