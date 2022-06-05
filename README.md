@@ -6,10 +6,11 @@ Ce dossier Repository est lié au cours `React : Créer et héberger un site ful
 
 Ce cours 100% orienté javascript vous présente comment créer votre première application fullstack avec la stack M.E.R.N :
 
-MongoDB Atlas: une base de données noSQL pour stocker les données dans le cloud
-Express.JS : une librairie javascript haut niveau pour créer des infrastructures web et des API RESTful
-React.JS : une bibliothèque javascript devenu populaire depuis sa création en 2013 pour développer des interfaces visuelles
-Et, Nodejs, plateforme logicielle libre en JavaScript, conçu pour créer des applications réseau évolutives
+- MongoDB Atlas: une base de données noSQL  pour stocker les données dans le cloud
+- Express.JS : une librairie javascript haut niveau pour créer des infrastructures web et des API RESTful
+- React.JS : une bibliothèque javascript devenu populaire depuis sa création en 2013 pour développer des interfaces visuelles 
+- Et, Nodejs, plateforme logicielle libre en JavaScript, conçu pour créer des applications réseau évolutives
+
 À la fin, vous aurez crée et déployé un projet complet dans le cloud hébergé sur Heroku, une Plateforme as a Service (PaaS) pour héberger son application dans le cloud
 
 ## Instructions
