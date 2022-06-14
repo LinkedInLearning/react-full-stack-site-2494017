@@ -4,20 +4,18 @@ Ce dossier Repository est lié au cours `React : Créer et héberger un site ful
 
 ![Nom final de la formation][lil-thumbnail-url] 
 
-Ce cours 100% orienté javascript vous présente comment créer votre première application fullstack avec la stack M.E.R.N :
+Ce cours 100 % orienté JavaScript vous présente comment créer votre première application fullstack avec la stack MERN :
 
-- MongoDB Atlas: une base de données noSQL  pour stocker les données dans le cloud
-- Express.JS : une librairie javascript haut niveau pour créer des infrastructures web et des API RESTful
-- React.JS : une bibliothèque javascript devenu populaire depuis sa création en 2013 pour développer des interfaces visuelles 
-- Et, Nodejs, plateforme logicielle libre en JavaScript, conçu pour créer des applications réseau évolutives
+- MongoDB Atlas: une base de données noSQL pour stocker les données dans le cloud
+- Express.js : une librairie JavaScript haut niveau pour créer des infrastructures web et des API RESTful
+- React.js : une bibliothèque JavaScript devenue populaire depuis sa création en 2013 pour développer des interfaces visuelles 
+- Et, Node.js, plateforme logicielle libre en JavaScript, conçu pour créer des applications réseau évolutives
 
-À la fin, vous aurez crée et déployé un projet complet dans le cloud hébergé sur Heroku, une Plateforme as a Service (PaaS) pour héberger son application dans le cloud
+À la fin, vous aurez crée et déployé un projet complet dans le cloud hébergé sur Heroku, une Plateforme As A Service (PaaS) pour héberger une application dans le cloud.
 
 ## Instructions
 
-Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
-
-vidéo: `03_07`, dans le répertoire backend, penser à ajouter un fichier `.env` à la racine de votre projet pour y inscrire la variable d'environnement `STRING_URI=string-de-connexion-de-mongoDB`
+Ce dossier repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
 
 ## Branches
 
@@ -29,11 +27,10 @@ La branche master correspond au code à la fin de la formation.
 ## Installation
 
 1. Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
-   - Visual Code Studio[https://code.visualstudio.com/]
+   - [Liste des logiciels/dépendances utiles à la formation] 
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
 3. [Instructions spécifiques au cours] 
 
-Après téléchargement des fichiers d'exercices, faire `npm install` dans les répertoires **client** et **backend** pour installer les paquets npm
 
 ### Formateur
 
@@ -47,4 +44,3 @@ Après téléchargement des fichiers d'exercices, faire `npm install` dans les r
 [lil-URL-trainer]: https://www.linkedin.com/learning/instructors/sandy-ludosky
 
 [1]: # (End of FR-Instruction ###############################################################################################)
-
