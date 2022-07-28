@@ -27,7 +27,7 @@ La branche master correspond au code à la fin de la formation.
 ## Installation
 
 1. Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
-   - [visual code studio](https://code.visualstudio.com/)
+   - [Visual Code Studio](https://code.visualstudio.com/)
    - [Node](https://nodejs.org/)
    - [GIT](https://git-scm.com/)
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
