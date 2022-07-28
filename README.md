@@ -29,7 +29,7 @@ La branche master correspond au code à la fin de la formation.
 1. Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
    - [visual code studio](https://code.visualstudio.com/)
    - [Node](https://nodejs.org/)
-   - [GIT]([https://nodejs.org/](https://git-scm.com/)
+   - [GIT](https://git-scm.com/)
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
 3. Suivre les instructions suivantes pour démarrer le projet et suivre les démonstrations en vidéo :
    - exécuter `npm i` pour installer la liste de dépendences
