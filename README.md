@@ -6,10 +6,10 @@ Ce dossier Repository est lié au cours `React : Créer et héberger un site ful
 
 Ce cours 100 % orienté JavaScript vous présente comment créer votre première application fullstack avec la stack MERN :
 
-- MongoDB Atlas: une base de données noSQL pour stocker les données dans le cloud
-- Express.js : une librairie JavaScript haut niveau pour créer des infrastructures web et des API RESTful
-- React.js : une bibliothèque JavaScript devenue populaire depuis sa création en 2013 pour développer des interfaces visuelles 
-- Et, Node.js, plateforme logicielle libre en JavaScript, conçu pour créer des applications réseau évolutives
+- **MongoDB Atlas**: une base de données noSQL pour stocker les données dans le cloud
+- **Express.js** : une librairie JavaScript haut niveau pour créer des infrastructures web et des API RESTful
+- **React.js** : une bibliothèque JavaScript devenue populaire depuis sa création en 2013 pour développer des interfaces visuelles 
+- Et, **Node.js**, plateforme logicielle libre en JavaScript, conçu pour créer des applications réseau évolutives
 
 À la fin, vous aurez crée et déployé un projet complet dans le cloud hébergé sur Heroku, une Plateforme As A Service (PaaS) pour héberger une application dans le cloud.
 
@@ -27,9 +27,13 @@ La branche master correspond au code à la fin de la formation.
 ## Installation
 
 1. Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
-   - [Liste des logiciels/dépendances utiles à la formation] 
+   - [visual code studio](https://code.visualstudio.com/)
+   - [Node](https://nodejs.org/)
+   - [GIT]([https://nodejs.org/](https://git-scm.com/)
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
-3. [Instructions spécifiques au cours] 
+3. Suivre les instructions suivantes pour démarrer le projet et suivre les démonstrations en vidéo :
+   - exécuter `npm i` pour installer la liste de dépendences
+   - puis `npm start` pour démarrer votre projet   
 
 
 ### Formateur
