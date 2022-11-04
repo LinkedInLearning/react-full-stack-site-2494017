@@ -44,7 +44,7 @@ La branche master correspond au code à la fin de la formation.
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/C560DAQHgmC9qoH0JMA/learning-public-crop_675_1200/0/1658326528763?e=1668157200&v=beta&t=RLWLOecPwv_88hyXXEMvvA5OFKctT-2861f-zbxk3D0
 [lil-URL-trainer]: https://www.linkedin.com/learning/instructors/sandy-ludosky
 
 [1]: # (End of FR-Instruction ###############################################################################################)
