@@ -6,10 +6,10 @@ Ce dossier Repository est lié au cours `React : Créer et héberger un site ful
 
 Ce cours 100 % orienté JavaScript vous présente comment créer votre première application fullstack avec la stack MERN :
 
-- MongoDB Atlas: une base de données noSQL pour stocker les données dans le cloud
-- Express.js : une librairie JavaScript haut niveau pour créer des infrastructures web et des API RESTful
-- React.js : une bibliothèque JavaScript devenue populaire depuis sa création en 2013 pour développer des interfaces visuelles 
-- Et, Node.js, plateforme logicielle libre en JavaScript, conçu pour créer des applications réseau évolutives
+- **MongoDB Atlas**: une base de données noSQL pour stocker les données dans le cloud
+- **Express.js** : une librairie JavaScript haut niveau pour créer des infrastructures web et des API RESTful
+- **React.js** : une bibliothèque JavaScript devenue populaire depuis sa création en 2013 pour développer des interfaces visuelles 
+- Et, **Node.js**, plateforme logicielle libre en JavaScript, conçu pour créer des applications réseau évolutives
 
 À la fin, vous aurez crée et déployé un projet complet dans le cloud hébergé sur Heroku, une Plateforme As A Service (PaaS) pour héberger une application dans le cloud.
 
@@ -27,9 +27,13 @@ La branche master correspond au code à la fin de la formation.
 ## Installation
 
 1. Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
-   - [Liste des logiciels/dépendances utiles à la formation] 
+   - [Visual Code Studio](https://code.visualstudio.com/)
+   - [Node](https://nodejs.org/)
+   - [GIT](https://git-scm.com/)
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
-3. [Instructions spécifiques au cours] 
+3. Suivre les instructions suivantes pour démarrer le projet et suivre les démonstrations en vidéo :
+   - exécuter `npm i` pour installer la liste de dépendences
+   - puis `npm start` pour démarrer votre projet   
 
 
 ### Formateur
@@ -39,8 +43,8 @@ La branche master correspond au code à la fin de la formation.
  Retrouvez mes autres formations sur [LinkedIn Learning][lil-URL-trainer].
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
+[lil-course-url]: https://www.linkedin.com/learning/react-creer-et-heberger-un-site-full-stack-15018564
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/C560DAQHgmC9qoH0JMA/learning-public-crop_675_1200/0/1658326528763?e=1669028400&v=beta&t=0lheOm17sRLalq2pmd7B1GqIVG4FDobVXmN_M90dz-I
 [lil-URL-trainer]: https://www.linkedin.com/learning/instructors/sandy-ludosky
 
 [1]: # (End of FR-Instruction ###############################################################################################)
