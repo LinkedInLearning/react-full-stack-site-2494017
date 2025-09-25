@@ -13,6 +13,8 @@ Ce cours 100 % orienté JavaScript vous présente comment créer votre première
 
 À la fin, vous aurez crée et déployé un projet complet dans le cloud hébergé sur Heroku, une Plateforme As A Service (PaaS) pour héberger une application dans le cloud.
 
+La meilleure façon d'apprendre un langage est de l'utiliser dans la pratique. C'est pourquoi ce cours est intégré à GitHub Codespaces, un environnement de développement instantané « dans le nuage » qui offre toutes les fonctionnalités de votre IDE préféré sans nécessiter de configuration sur une machine locale. Avec Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment, tout en utilisant un outil que vous êtes susceptible de rencontrer sur votre lieu de travail. 
+
 ## Instructions
 
 Ce dossier repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
